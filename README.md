@@ -1,4 +1,4 @@
-# Using-LDA-and-Jensen-Shannon-distance-to-separate-relevant-from-non-relevant-articles
+# Using LDA and Jensen-Shannon Distance (JSD) to group similar newspaper articles
 
 Many researchers have the problem that their data sets or automated set annotations contain articles that are irrelevant to their research question. For example, if the goal is to find articles on return migration, researchers have to deal with some ambiguous search terms. The German words "Heimkehr" (returning home) or "Rückkehr" (returning back) lead to many articles that are relevant to the research question, but also to articles that are not relevant (e.g. return from a mountain tour, work, etc.). By using topic models and documentary similarity measurements, this notebook allows me to exclude these articles without combining the word "Heimkehr" with other search terms. Furthermore, the same code can also be used to remove or prefer a certain genre, e.g. advertising, sports news, etc.
 
